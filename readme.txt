@@ -1,0 +1,43 @@
+=== Wordpress Enmasse ===
+Contributors: Matamko
+Donate link: 
+Tags: deal, enmasse
+Requires at least: 3.3
+Tested up to: 3.4
+Stable tag: 
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+
+
+== Description ==
+
+En Masse is now available for WordPress. This plug-in allows users to install a coupon shopping feature to their website. It allows customers to purchase any types of coupons online and facilitates great management in dealing of the coupons. Its implementation involves a frontend and a backend administrator site, both for the purpose of simplifying the management of coupons and deals.
+
+== Installation ==
+
+1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+
+== Frequently asked questions ==
+
+= A question that someone might have =
+
+An answer to that question.
+
+== Screenshots ==
+
+1. [view detail...](http://www.matamko.com/products/en-masse-wordpress/en-masse-wordpress-introduction.html#What_will_you_get)
+2. 
+
+== Changelog ==
+
+
+
+== Upgrade notice ==
+
+
+
+== Arbitrary section 1 ==
+
