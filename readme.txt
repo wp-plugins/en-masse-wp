@@ -19,23 +19,13 @@ En Masse is now available for WordPress. This plug-in allows users to install a 
 1. Upload `EnMasseWP.php` to the `/wp-content/plugins/EnMasseWP` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-== Frequently asked questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
 == Screenshots ==
 
 1. [view detail...](http://www.matamko.com/products/en-masse-wordpress/en-masse-wordpress-introduction.html#What_will_you_get)
 
 == Changelog ==
 
+= 1.0 =
 
 
-== Upgrade notice ==
-
-
-
-== Arbitrary section 1 ==
 
