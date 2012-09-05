@@ -1,7 +1,7 @@
 === Wordpress Enmasse ===
 Contributors: Matamko
 Donate link: 
-Tags: deal, enmasse
+Tags: deal, enmasse, en masse
 Requires at least: 3.3
 Tested up to: 3.4
 Stable tag: 
@@ -16,9 +16,8 @@ En Masse is now available for WordPress. This plug-in allows users to install a 
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload `EnMasseWP.php` to the `/wp-content/plugins/EnMasseWP` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
 
 == Frequently asked questions ==
 
