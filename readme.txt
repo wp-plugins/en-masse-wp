@@ -1,4 +1,4 @@
-=== Wordpress Enmasse ===
+=== En Masse Wordpress ===
 Contributors: Matamko
 Donate link: 
 Tags: deal, enmasse, en masse
@@ -7,8 +7,6 @@ Tested up to: 3.4
 Stable tag: 
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-
-En Masse is now available for WordPress. 
 
 == Description ==
 
