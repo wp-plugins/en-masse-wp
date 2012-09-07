@@ -1,3 +1,9 @@
+<?php 
+if (get_current_theme() != 'EnMasse WordPress 1.0') {?>
+<p>
+<h3>Please download themes at <a href="http://matamko.com/static/EnMasseWP_Theme.zip">En Masse Wordpress Theme</a></h3>
+</p>
+<?php } else {?>
 <div class="listItemIcon">
     <ul>
         <li>
@@ -76,3 +82,4 @@
         </li>
     </ul>
 </div><!--listItemIcon-->	
+<?php } ?>
