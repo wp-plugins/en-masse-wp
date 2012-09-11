@@ -37,66 +37,90 @@ function  enmasse_admin_menu() {
 		 add_submenu_page('enmasse_home', 'EnMasse WP', 'Report', 8, 'enmasse_dealReport','enmasse_dealReport');
 		 add_submenu_page('enmasse_home', 'EnMasse WP', 'Settings', 8, 'enmasse_settings', 'enmasse_settings');
 }
+function  enmasse_wp_theme_exits() {
+	if (get_current_theme() != 'EnMasse WordPress 1.0') { ?>
+		<p>
+		<h3>Please download the <a href="http://matamko.com/static/EnMasseWP_Theme.zip">En Masse Wordpress Theme</a> to complete the installation</h3>
+		</p>
+    <?php
+		exit();
+	}
+}
 function enmasse_dashboad($page){
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/dashboard.php");
 }
 function enmasse_category($page){
 	global $wpdb,$sendback;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/category.php");
 }
 function enmasse_location($page){
 	global $wpdb,$sendback;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/location.php");
 }
 function enmasse_deal($page){
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/deal.php");
 }
 function enmasse_gen($page){
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/category.php");
 }
 function enmasse_merchant($page) {
 	global $wpdb;$sendback;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/merchant.php");
 }
 function enmasse_saleperson($page)
 {
 	global $wpdb;$sendback;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/saleperson.php");
 }
 function enmasse_paymentgateway($page){
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/paymentgateway.php");
 }
 function enmasse_couponeditor($page){
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/coupon.php");
 }
 function enmasse_emailtemplate($page){
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/emailtemplate.php");
 }
 function enmasse_order($page){
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/order.php");
 }
 function enmasse_report($page) {
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/report.php");
 }
 function enmasse_billeditor($page) {
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/billeditor.php");
 }
 function enmasse_dealReport ($page) {
 	global $wpdb;
+	enmasse_wp_theme_exits();
 	require_once(ENMASSE_ADMIN."/dealcouponreport.php");
 }
 
 function enmasse_settings ($page) {
 	global  $wpdb;
+	enmasse_wp_theme_exits();
 	require_once (ENMASSE_ADMIN.'/setting.php');
 }
 function enmasse_admin_head() {
