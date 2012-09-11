@@ -29,5 +29,4 @@ En Masse is now available for WordPress. This plug-in allows users to install a 
 
 = 1.0 =
 
-
-
+1.Initial release
